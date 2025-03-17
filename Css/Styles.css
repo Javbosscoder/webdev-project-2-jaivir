@@ -1,0 +1,42 @@
+body {
+background-color: rgb(88, 0, 0);
+margin: 15px;
+}
+h1 {
+    text-align: center;
+}
+.navbar ul{
+    background-color: rgb(165, 0, 0);
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar :hover{
+    background-color: rgb(255, 0, 0);
+}
+.navbar li{
+    float: left;
+}
+#slideshow-image
+{
+    border: 200%;color: darkblue;
+}
+p {
+    text-align: center; 
+}
+
+div{
+    display: grid;
+    place-items: center;
+}
+#idss{
+    align-items: right;
+    display: inline; float: right;
+}
