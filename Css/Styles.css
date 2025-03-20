@@ -1,68 +1,58 @@
-body {
 /* Set background color and margin for the entire page */
-    background-color: #f5e6cc;
-/* Light beige background for a warm tone */
-    margin: 15px;
-/* Adds space around the page */
+body {
+    background-color: #f5e6cc; /* Light beige background for a warm tone */
+    margin: 15px; /* Adds space around the page */
 }
 
-h1 {
 /* Center align the main heading */
+h1 {
     text-align: center;
 }
 
-.navbar ul {
 /* Navbar styling */
-    background-color: rgb(0, 0, 0);
-/* Black background for the navbar */
-    list-style-type: none; 
-/* Removes bullet points from list items */
+.navbar ul {
+    background-color: rgb(0, 0, 0);/* Black background for the navbar */
+    list-style-type: none; /* Removes bullet points from list items */
     padding: 0px;
     margin: 0px;
-    overflow: hidden; 
-/* Ensures proper spacing and alignment */
+    overflow: hidden; /* Ensures proper spacing and alignment */
 }
 
-.navbar a {
 /* Navbar links */
-    text-decoration: none;
-/* Removes underline from links */
+.navbar a {
+    text-decoration: none; /* Removes underline from links */
     padding: 15px;
-    display: block;
-/* Makes the entire area clickable */
+    display: block; /* Makes the entire area clickable */
     text-align: center;
 }
 
-.navbar a:hover {
 /* Navbar hover effect */
-    background-color: rgb(61, 61, 61); 
-/* Darker gray color when hovering */
+.navbar a:hover {
+    background-color: rgb(61, 61, 61); /* Darker gray color when hovering */
 }
 
-.navbar li {
 /* Navbar list items */
+.navbar li {
     float: left; /* Aligns menu to the left */
 }
 
-p {
 /* Center align all paragraph text */
+p {
     text-align: center;
 }
 
+/* Center content inside div elements */
 div {
     display: grid;
     place-items: center; 
 }
-/* Center content inside div elements */
 
-#supersigmaid {
 /* makes the font size with the suppersigmaid to be bigger */
-    font-size: 24px; 
-/* Makes the text larger */
+#supersigmaid {
+    font-size: 24px; /* Makes the text larger */
 }
 
-img {
 /* Add a shadow effect to all images */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); 
-/* Adds a subtle shadow */
+img {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Adds a subtle shadow */
 }
